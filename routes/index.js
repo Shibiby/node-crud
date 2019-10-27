@@ -13,7 +13,7 @@ var db = mysql.createPool({
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index');
 });
 
 router.get('/testconnection', function(req, res, next) {
@@ -53,7 +53,9 @@ router.get('/delete', function (req, res, next) {
 //edit data
 router.get('/edit', function (req, res, next) {
   db.query('SELECT * FROM tb_book WHERE id = ?', req.query.id, function (err, rs) {
-    res.render('form', { book: rs[0] });
+    res.render('form', { 
+      title: 'Edited',
+      book: rs[0] });
   })
 });
 
@@ -68,4 +70,4 @@ router.post('/edit', function (req, res, next) {
 });
 
 
-module.exports = rout
+module.exports = router;
