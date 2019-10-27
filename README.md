@@ -1,4 +1,4 @@
-# node-crud
+# A SIMPLE NODE, EXPRESSJS AND MYSQL CRUD APPLICATION
  
 This is a Simple Nodejs, ExpressJs & Mysql Crud application.
 
@@ -8,4 +8,5 @@ Create a mysql database called node_crud and import the .sql file.
 Configure your database in the '/routes/index.js' file.
 
 Start the Project: 'npm start'
+
 Start the Project in Development Mode: 'npm run dev'
