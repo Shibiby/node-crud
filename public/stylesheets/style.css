@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: yellow;
+}
+
+a {
+  color: black;
+}
+
+#home{
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#btn{
+  color: black;
+  background-color: yellow;
+  border-radius: 0px;
+  border-style: none;
+}

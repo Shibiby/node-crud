@@ -1,0 +1,44 @@
+{
+  "name": "node-crud",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "popper.js": "^1.16.0"
+  },
+  "description": "A simple nodejs express js and mysql crud application",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shibiby/node-crud.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Expressjs",
+    "Mysql"
+  ],
+  "author": "Muhammad Feisal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shibiby/node-crud/issues"
+  },
+  "homepage": "https://github.com/Shibiby/node-crud#readme"
+}
